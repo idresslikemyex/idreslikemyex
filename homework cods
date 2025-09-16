@@ -1,0 +1,58 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // 1. 
+    cout << "Hello, World!" << endl;
+
+    // 2. 
+    int x = 5;
+    cout << "x = " << x << endl;
+
+    // 3. 
+    cout << "Enter your age: ";
+    cin >> userAge;
+    cout << "Your age is: " << userAge << endl;
+
+    // 4. 
+    cout << "Enter two integers separated by space: ";
+    cin >> num1 >> num2;
+    cout << "Sum of the numbers: " << (num1 + num2) << endl;
+
+    // 5. 
+    double radius;
+    cout << "Enter the radius of the circle: ";
+    cin >> radius;
+    double circumference = 2 * pi * radius;
+    cout << "Circumference of the circle: " << circumference << endl;
+
+    // 6. 
+    int a = 10;
+    int b = 3;
+    cout << "a / b = " << (a / b) << endl;
+    cout << "a % b = " << (a % b) << endl;
+
+    // 7. 
+    while (counter < 5) {
+        ++counter;
+    }
+    cout << "counter after incrementing: " << counter << endl;
+
+    // 8. 
+    cout << "Enter a number to square: ";
+    cin >> number;
+    int squared = number * number;
+    cout << "Square of the number: " << squared << endl;
+
+    // 9. 
+    int score = 100;
+    score += 15;
+    cout << "score after += 15: " << score << endl;
+
+    // 10. 
+    cout << "Enter the price of the item: ";
+    cin >> price;
+    cout << "Price: " << price << endl;
+
+    return 0;
+}
