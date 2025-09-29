@@ -1,0 +1,147 @@
+#include <iostream>
+#include <string>
+
+void task_1(){
+int a;
+std::cout<< "enter number: " ;
+std::cin >> a;
+if(a >= 0) {
+std::cout<< "number greater than zero!: "; }
+else{
+    std::cout<< "number less than zero!: "; }
+}
+void task_2(){
+int number;
+std::cout<< "enter number: " ;
+std::cin >> number;
+if (number % 2 == 0) {
+        std::cout << "number " << number << " is even." << std::endl; 
+    } else {
+        std::cout << "number " << number << " is odd." << std::endl; 
+    }
+
+}
+   
+void task_3(){
+int number1, number2;
+
+   
+    std::cout << "enter 2 numbers: ";
+    std::cin >> number1 >> number2; 
+    
+    if (number1 == number2) {
+        std::cout << "numbers are equal" << std::endl;
+    } else {
+        std::cout << "numbers are not equal" << std::endl;
+    }        
+}
+void task_4(){
+  int number; 
+    std::cout << "enter number: ";
+    std::cin >> number;
+    if (number % 5 == 0) {
+        std::cout << number << " is divisible by 5." << std::endl;
+    } else {
+        std::cout << number << " is not divisible by 5." << std::endl;
+    }
+}
+void task_5(){
+    int age; 
+    std::cout << "Please enter your age: ";
+    std::cin >> age; 
+    if (age >= 18) {
+        std::cout << "You are an adult." << std::endl;
+    } else {
+        std::cout << "You are a minor." << std::endl; 
+    }
+}  
+void task_6(){
+    int number; 
+    std::cout << "Enter a number: ";
+    std::cin >> number;
+
+    
+    if (number < 0) {
+        std::cout << "The number " << number << " is negative." << std::endl;
+    } else {
+        std::cout << "The number " << number << " is not negative." << std::endl;
+    }
+}
+    
+void task_7(){
+      char inputChar; 
+
+    std::cout << "enter number";
+    std::cin >> inputChar; 
+    if (inputChar == 'A') {
+        std::cout << "The character entered is a capital 'A'" << std::endl;
+    } else {
+        std::cout << "The character entered is NOT a capital 'A'" << std::endl;
+    }
+
+}
+void task_8(){
+     double num1, num2; 
+    std::cout << "Enter the first number: ";
+    std::cin >> num1;
+
+    std::cout << "Enter the second number: ";
+    std::cin >> num2;
+
+    if (num1 > 0 && num2 > 0) {
+        std::cout << "Both numbers are positive." << std::endl;
+    } else {
+        std::cout << "At least one of the numbers is not positive." << std::endl;
+    }
+    
+    
+    }
+void task_9(){
+   int num1, num2;
+
+
+    std::cout << "Enter the first number: ";
+    std::cin >> num1;
+    std::cout << "Enter the second number: ";
+    std::cin >> num2;
+
+    if (num1 == 0 || num2 == 0) {
+        std::cout << "At least one of the numbers is zero." << std::endl;
+    } else {
+        std::cout << "Neither number is zero." << std::endl;
+    }
+
+    }    
+    
+void task_10(){
+     int number; 
+
+    std::cout << "Enter a number: "; 
+    std::cin >> number; 
+
+    if (number != 10) {
+        std::cout << "The number is not equal to 10." << std::endl;
+    } else {
+        std::cout << "The number is equal to 10." << std::endl;
+    }
+    
+    
+    
+    
+    }
+
+    
+int main(){
+    task_1();
+    task_2();
+    task_3();
+    task_4();
+    task_5();
+    task_6();
+    task_7();
+    task_8();
+    task_9();
+    task_10();
+    return 0;
+}
+    
